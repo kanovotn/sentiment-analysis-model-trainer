@@ -4,6 +4,8 @@
 This project is designed to perform sentiment analysis on textual data. It includes a machine learning model for
 predicting sentiment, a web interface for user interaction, and a backend to handle prediction requests.
 
+The demo app is running on HuggingFace Spaces - [https://huggingface.co/spaces/lyrisha/sentiment-analysis](https://huggingface.co/spaces/lyrisha/sentiment-analysis)
+
 ## The purpose
 - show how to use HuggingFace pre-trained models and Transformers library to train them
 - show how to integrate a sentiment analysis model with a Gradio web application.
