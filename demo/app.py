@@ -1,6 +1,6 @@
 import argparse
 from src.prediction.model_predictor import ModelPredictor
-from demo.ui import UI
+from ui import UI
 
 def app():
     # Set up parser
@@ -13,7 +13,7 @@ def app():
     args = parser.parse_args()
 
     model = ModelPredictor(args.model)
-    UI(model).launch()
+    UI(args.model).launch()
 
 if __name__ == "__main__":
     app()
